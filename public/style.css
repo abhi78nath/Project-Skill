@@ -2,10 +2,69 @@
     margin:0;
     padding: 0;
 }
+body{
+    height: 100vh;
+}
 .vertical {
     border: 1px solid #42434d;
     height: auto;
     /* position: relative; */
     /* left: 50%; */
     width: 0;
+}
+#override .navbar{
+    justify-content: space-around;
+}
+.home{
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -46px;
+}
+.homeContainer{
+    display: flex;
+    background: linear-gradient(
+180deg, rgba(135, 255, 241, 0.39) 0%, rgba(0, 226, 172, 0.1) 100%);
+    width: 100%;
+    height: 60%;
+    align-items: center;
+
+}
+
+.button{
+    margin-top: 1rem;
+}
+.btn{
+    background: linear-gradient(90deg, #0EF0C7 0%, rgba(33, 169, 245, 0.27) 100%);
+    opacity: 0.9;
+    border-radius: 69.2023px;
+    width: 9rem;
+    height: 3.5rem;
+
+}
+.card1{
+    position: absolute;
+    width: 18rem;
+    height: 13rem;
+    left: 107px;
+    top: 135px;
+    background: url(https://cdn.pixabay.com/photo/2022/08/18/09/20/houses-7394390_960_720.jpg);
+    background-size: cover;
+    border-radius: 40px;
+}
+.card2{
+    position: absolute;
+    width: 18rem;
+    height: 13rem;
+    left: 62px;
+    top: 384px;
+    background: url(https://cdn.pixabay.com/photo/2022/08/18/09/20/houses-7394390_960_720.jpg);
+    background-size: cover;
+    border-radius: 40px;
+
 }
