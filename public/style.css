@@ -47,24 +47,87 @@ body{
     height: 3.5rem;
 
 }
+.homeLeft{
+    flex: 2;
+}
+.homeRight{
+    flex: 1.5;
+    /* background-color: red; */
+}
+.homeLeft .card-content
+.card{
+    box-shadow: 14px 21px 19px -7px rgba(0,0,0,0.75);
+}
 .card1{
+    display: flex;
     position: absolute;
+    text-align: center;
     width: 18rem;
     height: 13rem;
-    left: 107px;
-    top: 135px;
+    transform: translate(5rem, -15rem);
     background: url(https://cdn.pixabay.com/photo/2022/08/18/09/20/houses-7394390_960_720.jpg);
     background-size: cover;
     border-radius: 40px;
+    /* align-content: center; */
+    justify-content: center;
 }
 .card2{
+    display: flex;
     position: absolute;
     width: 18rem;
     height: 13rem;
-    left: 62px;
-    top: 384px;
+    /* left: 58px;
+    top: 375px; */
+    transform: translate(2rem, 3rem);
     background: url(https://cdn.pixabay.com/photo/2022/08/18/09/20/houses-7394390_960_720.jpg);
     background-size: cover;
     border-radius: 40px;
-
+    text-align: center;
+    justify-content: center;
+    
 }
+.card3{
+    display: flex;
+    position: absolute;
+    width: 18rem;
+    height: 13rem;
+    transform: translate(29rem, -6rem);
+    background: url(https://cdn.pixabay.com/photo/2022/08/18/09/20/houses-7394390_960_720.jpg);
+    background-size: cover;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-text:hover{
+    transform: scale(5);
+}
+
+.rightText{
+    padding: 9rem;
+    text-align: justify;
+    font-family: 'Oxygen', sans-serif;
+    font-size: larger;
+}
+
+.sec2head{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 75px;
+    margin-bottom: 4rem;
+}
+
+.sec2subheader{
+    height: 4rem;
+    display: flex;
+    background: linear-gradient(
+90.24deg, rgba(58, 232, 243, 0.92) 0%, rgba(174, 255, 187, 0.24) 98.82%);
+    justify-content: center;
+    align-items: center;
+}
+.subheaderText{
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
